@@ -1,8 +1,22 @@
+$body-bg: #ecf0f1;
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-.jumbotron {
-    background-image: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-205580.jpg);
+.jumbotron-special {
+    height: 700px;
+    background-image: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-169307.jpg);
     background-position: 0% 40%;
     background-size: cover;
     background-repeat: no-repeat;
+    padding:120px;
+    margin:0px;
+    text-align: left;
 }
+
+.jumbotron-default {
+    background-color:#f39c12;
+    padding:120px;
+    margin:0px;
+    text-align: left;
+}
+
