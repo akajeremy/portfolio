@@ -3,18 +3,33 @@ $thumbnail-bg: #ecf0f1;
 @import 'bootstrap';
 
 
-.jumbotron-special {
+.linkedin{
+    float: right;
+}
+
+div.transbox
+{
+  padding: 0px 20px;
+  background-color: #ecf0f1;
+  border: 1px solid black;
+  opacity:0.6;
+  border-radius: 15px;
+  filter:alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox h1 {
+    color: #000000
+}
+
+.jumbotron-homepage {
     height: 700px;
     background-image: url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-169307.jpg);
     background-position: 0% 40%;
     background-size: cover;
     background-repeat: no-repeat;
-    padding:120px;
-    margin:0px;
-    text-align: left;
 }
 
-.jumbotron-default {
+.jumbotron-aboutme {
     height: 1000px;
     background-image:url(http://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-189597.jpg);
     background-position: 0% 10%;
@@ -22,6 +37,5 @@ $thumbnail-bg: #ecf0f1;
     background-repeat: no-repeat;
     padding:100px;
     margin:0px;
-    text-align: left
 }
 
