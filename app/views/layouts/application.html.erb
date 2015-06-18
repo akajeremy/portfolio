@@ -4,17 +4,27 @@
 <head>
  <%= render 'layouts/header' %>	
  <link href="jumbotron.css" rel="stylesheet">
- <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
-	<title> Portfolio </title>
+ 	<title> Portfolio </title>
 	<%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-   <%= javascript_include_tag "default", "data-turbolinks-track" => true %>
-   <%= csrf_meta_tags %>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   	<%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+   	<%= csrf_meta_tags %>
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
+<body>
 
-    <!--home page-->
-    <%= yield %>
-  
+	<!--home page-->
+   	<%= yield %>
+
+   	<!-- Bootstrap core JavaScript
+    ================================================== -->
+	 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+   	</script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="http://getbootstrap.com/assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
 </html>
 
  
